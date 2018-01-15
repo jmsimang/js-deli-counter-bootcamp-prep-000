@@ -1,7 +1,7 @@
 function takeANumber(line, name) {
   line.push(name)
   var lineNumber = line.length
-  return "Welcome, ${name}. You are number ${lineNumber} in line."
+  return `Welcome, ${name}. You are number ${lineNumber} in line.`
 }
 
 function nowServing(line) {
@@ -10,7 +10,7 @@ function nowServing(line) {
   var customer = ""
   customer += line[0]
   line.shift()
-  return 'Currently serving '+customer+'.'
+  return `Currently serving ${customer}.`
 }
 
 function currentLine(line) {
