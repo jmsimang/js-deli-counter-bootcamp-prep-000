@@ -20,4 +20,5 @@ function currentLine(line) {
   for (let i = 1; i<=line.length; i++) {
     message += `${i}. ${line[i]}`
   }
+  return message
 }
